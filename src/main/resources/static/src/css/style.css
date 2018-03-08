@@ -18,6 +18,7 @@ aside {
 	grid-column: -4 / -1;
 }
 header {
+	background-color: #fff;
 	border-bottom: 1px solid black;
 }
 footer {
