@@ -1,37 +1,12 @@
-// With VanillaJS
-// Example with local data
-//var xhttp = new XMLHttpRequest();
-//xhttp.onreadystatechange = function() {
-//    if (this.readyState == 4 && this.status == 200) {
-//       // Typical action to be performed when the document is ready:
-//       document.getElementById("asideContent").innerHTML = xhttp.responseText;
-//    }
-//};
-//xhttp.open("GET", "../sidebar.html", true);
-//xhttp.send();
+// Create new content for the sidebar element that will update when the user clicks a button
 
-// Example with a hosted API
-//var xhr = new XMLHttpRequest();
-//xhr.onreadystatechange = function() {
-//	if (this.readyState == 4 && this.status == 200) {
-//		// Get JSON from the returned string
-//		const res = JSON.parse(xhr.responseText);
-//		// Typical action to be performed when the document is ready:
-//		document.getElementById("asideContent").innerHTML = `<h2>${res}</h2>`;
-//	}
-//};
-//xhr.open("GET", "https://swapi.co/api/people/1/", true);
-//xhr.send();
+// Use the Star Wars API to create HTML elements out
+// of character information and add it to the main element
 
-// With an interval for frequent updates
+// Create a new CSS sheet with new style rules and
+// update elements on the page 10 seconds after the page loads
 
-//setInterval(function() {
-//	xhttp.open("GET", "../sidebar.html", true)
-//	xhttp.send()
-//}, 3000);
+// Find another public API to get data from and use it to add content to your page
 
-// With jQuery
-
-//const $asideContent = $('#asideContent')
-//
-//$asideContent.load('../sidebar.html')
+// Use an event listener on some element of your page to request new data
+// from some location when the user interacts with the element in some way
